@@ -1,0 +1,33 @@
+header {
+    position: absolute;
+    left: 10px;
+}
+
+.menu-strip {
+    display: block;
+    border-radius: 8px;
+    top: 5px;
+    padding: 3px;
+    position: fixed;
+    transform: translateX(12%);
+    background-color: var(--ak-secondary-background-color);
+    box-shadow: 11px 23px 50px rgb(0 0 0 / 15%);
+    z-index: 10000;
+}
+
+svg {
+    width: 70px;
+    height: 70px;
+    animation: EarthRotate 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes EarthRotate {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}

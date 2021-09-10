@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "portfolio-amitkulkarni"
+    }
+  },
+  "defaultProject": "portfolio-amitkulkarni",
+  "cli": {
+    "analytics": false
+  }
 }

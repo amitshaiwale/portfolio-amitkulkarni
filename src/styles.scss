@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+$brand-color: blue;
+
+@font-face {
+    font-family: UbuntuRegular;
+    src: url('assets/fonts/UbuntuMono-Regular.ttf');
+}
+
+@font-face {
+    font-family: MontserratRegular;
+    src: url('assets/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: MontserratMedium;
+    src: url('assets/fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+    font-family: UbuntuBold;
+    src: url('assets/fonts/UbuntuMono-Bold.ttf');
+}
+
+$font-ubuntu-regular: UbuntuRegular;
+$font-ubuntu-bold: UbuntuBold;
+$font-montserrat-regular: MontserratRegular;
+$font-montserrat-medium: MontserratMedium;
+
+body{
+    font-family: $font-montserrat-regular;
+    margin: 0px;
+    padding: 0px;
+}
+
+h4, h5 {
+    margin: 0.7em 0 0.7em 0;
+}
+
+:root {
+    --ak-primary-text-color: black;
+    --ak-secondary-text-color: #c7c6c4;
+    --ak-primary-background-color: red; //  yet to be decided
+    --ak-secondary-background-color: #ea1821;
+    --ak-theme-blue-001: #0a005a;
+    --ak-font-montserrat-regular: MontserratRegular;
+    --ak-font-montserrat-medium: MontserratMedium;
+    --ak-font-ubuntu-regular: UbuntuRegular;
+    --ak-font-ubuntu-bold: UbuntuBold;
+
+}

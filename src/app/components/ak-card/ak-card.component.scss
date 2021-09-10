@@ -1,0 +1,25 @@
+h5 {
+    color: var(--ak-secondary-text-color);
+    font-weight: 400;
+    font-size: 19px;
+    font-family: var(--ak-font-montserrat-regular);
+}
+h4 {
+    font-family: var(--ak-font-ubuntu-bold);
+    font-size: 19px;
+}
+.card-wrapper {
+    width: 700px;
+    font-family: var(--ak-font-ubuntu-regular);
+    font-weight: 400;
+    margin-bottom: 20px;
+    &__section {
+        border-radius: 5px;
+        padding: 1.2rem;
+        background-color: white;
+        border-left: 3px solid var(--ak-theme-blue-001);
+        box-shadow: 11px 23px 50px rgb(0 0 0 / 15%);
+        font-size: 21px;
+        line-height: 1.3;
+    }
+}

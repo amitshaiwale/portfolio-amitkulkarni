@@ -1,0 +1,20 @@
+[
+    {
+        "tense": "right now",
+        "designation": "Member of Technical Staff — TIBCO",
+        "info": "Learning & building Web Components. — Lit element, Webpack, Tailwind, Storybook, Cypress."
+    },
+    {
+        "tense": "previous",
+        "designation": "Sr. Software Engineer — Infosys",
+        "info": "TalkTalk Plc UK — Angular 10, Bootstrap, Redux, Redux-Saga, StencilJS, Contentful CMS, Agile way of work."
+    },
+    {
+        "tense": "in parallel universe",
+        "designation": "Founder — BLANK",
+        "info": "Flutter, Firebase — Android only app [WIP]"
+    },
+    {
+        "info": "Angular, Angular Material"
+    }
+]
