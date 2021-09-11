@@ -5,3 +5,13 @@
     margin-top: 150px;
     align-items: center;
 }
+
+footer {
+    margin: 20px 0px 20px 0px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 720px) {
+    .wrapper {
+        align-items: center;
+    }
+}
